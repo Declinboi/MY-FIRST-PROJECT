@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: justify;
+    background-color: #e9d5d5f3;
+}
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+    background-color: #04AA6D;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 174, 0);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(30, 156, 110);
+}
+
+h3 {
+    text-align: left;
+    color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(99, 99, 17);
+}
+
+
+#clinton {
+    width: 100%;
+    object-fit: cover;
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#description {
+    width: 50%;
+    padding-right: 8px;
+}
+
+#clinboi {
+    width: 50%;
+}
+
+#team-image {
+    border-radius: 5px;
+    width: 100%;
+    border: solid gold;
+}
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+#job {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+    border: 1px solid gray;
+}
+
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: rgb(99, 62, 14);
+    text-align: center;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aquamarine;
+}
+
+.job-role {
+    margin-bottom: 0;
+}
+
+.apply {
+    float: right;
+}
+
+#footer {
+    background-color: rgb(220, 145, 235);
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#footer-links {
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 16px;
+}
+
+.copyright {
+    color: rgb(240, 255, 249);
+}
+
+#application {
+    max-width: 800px;
+    padding: 0 8px;
+    margin: 0 auto;
+}
+
+#application-form label {
+    font-weight: 600;
+}
+
+#application-form input, select, textarea {
+    padding: 4px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid rgb(64, 179, 179);
+}
+
+.form-group {
+    margin: 16px;
+}
+
+.form-group textarea {
+    width: 80%;
+font-size: small;
+}
+
+.form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color: rgb(15, 15, 211);
+    color: antiquewhite;
+    font-weight: 500;
+}
